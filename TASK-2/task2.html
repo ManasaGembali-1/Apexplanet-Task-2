@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtSpace – Share Your Creativity</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">🎨 ArtSpace</div>
+      <div class="nav-links">
+        <a href="#gallery">Gallery</a>
+        <a href="#submit">Submit Art</a>
+      </div>
+    </nav>
+
+    <header>
+      <h1>🎨 ArtSpace</h1>
+      <p>Explore beautiful artwork and share your own creativity with us.</p>
+    </header>
+
+    <section id="gallery" class="gallery-section">
+      <h2>Featured Artwork</h2>
+      <div class="gallery-grid">
+        <img src="p1.jpg" alt="Art 1" />
+        <img src="fish.jpg" alt="Art 2" />
+        <img src="eye.jpg" alt="Art 3" />
+      </div>
+    </section>
+    <div class="gallery-controls" style="text-align: center; margin: 20px 0">
+      <input type="file" id="add-image" accept="image/*" />
+      <button id="add-image-btn">Add Image</button>
+    </div>
+
+    <section id="submit" class="form-section">
+      <h2>Submit Your Art / Feedback</h2>
+      <form id="feedback-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message / Feedback:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <label for="art">Upload Your Artwork:</label>
+        <input type="file" id="art" name="art" accept="image/*" />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 ArtSpace</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
