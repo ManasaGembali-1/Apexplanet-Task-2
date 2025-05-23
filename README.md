@@ -45,8 +45,8 @@ This project is for educational and internship purposes under ApexPlanet. You ar
 
 ---
 
-![screenshot](ss1.png)
+![screenshot](TASK-2/ss1.png)
 
 ---
 
-![screenshot](ss2.png)
+![screenshot](TASK-2/ss2.png)
