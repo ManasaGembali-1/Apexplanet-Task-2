@@ -1,7 +1,6 @@
 # 🎨 ArtSpace – Share Your Creativity
 
-ArtSpace is a responsive and interactive web application that allows users to explore beautiful artwork, submit their own creations, and dynamically manage an image gallery. This project was built as part of the ApexPlanet Internship – Task 2.
-
+ArtSpace is a responsive and interactive web application that allows users to explore beautiful artwork, submit their own creations, and dynamically manage an image gallery. 
 ## 🌟 Features
 
 - **Responsive Design** using Flexbox, CSS Grid, and media queries.
@@ -31,11 +30,7 @@ ArtSpace is a responsive and interactive web application that allows users to ex
    - Add or remove images in the gallery using the upload input.
 4. No server setup required—runs entirely on the client-side.
 
----
 
-## ✍️ Author
-
-Intern at ApexPlanet
 
 ---
 
